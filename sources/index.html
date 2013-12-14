@@ -4,82 +4,53 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-
+<div style="position:relative;height:85px;width:100%;">
+        <div id="header" style="display:block; width:100%; position:fixed; top:0px; z-index:990;">
+                <a href="#" class="toggle-menu menu-left button menu">Menu</a>
+                <a href="javascript:window.location.reload()" class="button reload"><img src="http://m.maxifoot.fr/images/bt-reload2.png" width=14 height=18 alt="" /></a>
+                <a href="/" class="logo"><img id=logo1 src="http://m.maxifoot.fr/images/logo-maxifoot3.gif" alt="Maxifoot" width=102 height=38 /></a>
+        </div>
+        <div id=navigation style="display:block; width:100%; position:fixed; top:42px; z-index:990; overflow:hidden; white-space:nowrap;">
+                <a data-section="1" id="ml1" href="#">La Une</a>
+                <a data-section="2" id="ml2" href="#">Brèves</a>
+                <a data-section="3" id="ml3" style="padding:0 11px;" href="#">Live</a>
+                <a data-section="4" id="ml4" href="#">Résult.</a>
+                <a data-section="5" id="ml5" href="/plus.htm" style="font-size:24px;">+</a>
+        </div>
+</div>
     <div class="frame">
-
         <div id="pageWrapper">
             <div id="pageScroller">
-                <div class="page" >
-                    <h1>Page 1</h1>
-                    <hr/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <h2>Subtitle</h2>
-                    <hr/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <h2>Subtitle</h2>
-                    <hr/>
+                <div id=pg1 class="page">
                 </div>
-
-                <div class="page" >
-                    <h1>Page 2</h1>
-                    <hr/>
-                    <img src="picture.jpg" width="100%"/>
+                <div class="page">
                 </div>
-                <div class="page" >
-                    <div id="wrapper">
-                        <div class="scroller">
-                            <h1>Page 3</h1>
-                            <hr/>
-                            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-                            <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-                            <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat...</p>
-                            <br/>
-                            <h2>More Lorem Ipsum</h2>
-                            <hr/>
-                            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-                            <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-                            <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat...</p>
-                            <br/>
-                            <h2>Even More Lorem Ipsum</h2>
-                            <hr/>
-                            <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-                            <p>Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
-                            <p>Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-                            <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil impedit, quo minus id, quod maxime placeat, facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
-                            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat...</p>
-                        </div>
-                    </div>
+                <div class="page">
                 </div>
-                <div class="page" >
-                    <h1>Page 4</h1>
-                    <hr/>
-                    <div style="width:100%;text-align:center;">
-                        <img src="logo.png" />
-                    </div>
+		<div class="page">
                 </div>
             </div>
         </div>
-
-
 <script src="js/jquery-1.7.2.min.js"></script>
 <script src="js/iscroll.js"></script>
 <script src="js/scroll.js"></script>
-
+<div id="fb-root"></div>
+<script type="text/javascript">
+var c1=[[20337,"Lyon imite le PSG - Débrief et NOTES des joueurs (Lyon 1-0 Betis)","Après le PSG en Ligue des Champions mercredi, l'Olympique Lyonnais a décroché son ticket pour les 16...","vercoutre-4"],[20335,"Coupe du monde : des hackers auraient piraté le tirage au sort, la France serait dans le groupe de la mort...","Le tirage au sort de la phase finale de la Coupe du monde a-t-il déjà été établi ? Telle est l'hypot...","tirage-1"],[20336,"Transfert : l'OM n'est pas le seul club français intéressé par Hoarau...","Guillaume Hoarau devrait rapidement quitter la Chine, moins d'un an après y avoir posé ses crampons....","hoarau-34"],[20331,"Ligue Europa : Lyon tiraillé entre le Betis et le PSG, la dernière chance pour Bordeaux...","Lyon et Bordeaux sont de sortie à domicile ce jeudi en Ligue Europa, respectivement contre le Betis ...","gomis-vila-"],[20333,"PSG : Verratti incorrigible ? Blanc ne lui en veut pas...","Incorrigible ou victime de sa réputation ? Alors que chacun se fera son avis sur la question, Lauren...","verratti-21"],[20334,"Tottenham : Villas-Boas déjà sur la sellette, Ginola candidat...","Annoncé comme le fils spirituel de José Mourinho, André Villas-Boas ne connaît pas la même réussite ...","villas-boas-5"],[20332,"Equipe de France : les 23 pour le Brésil, son bilan, l'étrange Ballon d'Or... Deschamps se confie","Didier Deschamps est parvenu à qualifier l'équipe de France pour la prochaine Coupe du monde. Object...","deschamps-64"],[20329,"Le PSG voulait plus que la qualification - Débrief et NOTES des joueurs (PSG 2-1 Olympiakos)","Un nul lui suffisait pour se qualifier pour les 8es de finale de la Ligue des Champions. Mais le PSG...","maxwell-ibrahimovic-cavani-"],[20330,"Ligue des Champions : MU cartonne, le Real déroule, Vidal réveille la Juve, City a dû se faire violence","Huit matchs de la 5e journée de la Ligue des Champions étaient au programme ce mercredi soir. Manche...","valencia-rooney-"],[20328,"PSG : que faire de Pastore ?","Peu utilisé par Laurent Blanc, Javier Pastore reste une énigme au Paris Saint-Germain. Alors que le ...","pastore-51"],[20327,"Milan : Kaká, et si c'était lui le sauveur ?","De retour au Milan AC après un passage raté au Real Madrid, Ricardo Kaká semble retrouver une second...","kaka-11"],[20326,"Caen veut s'offrir un beau pactole en dénonçant Monaco !","La situation de l'AS Monaco ne fait pas que des heureux. Caen estime que la montée en Ligue 1 de l'A...","ocampos-1"],[20323,"Ligue des Champions : l'OM n'est pas au niveau, mais ce n'est pas le seul problème...","Cinquième défaite en cinq matchs de Ligue des Champions pour l'Olympique de Marseille mardi soir fac...","gignac-64"],[20321,"Un air de déjà vu pour l'OM... - Débrief et NOTES des joueurs (Arsenal 2-0 OM)","L'OM s'est de nouveau incliné (2-0) mardi soir, sur la pelouse d'Arsenal cette fois-ci, lors de la 5...","wilshere-"],[20322,"Ligue des Champions : le Barça et Chelsea battus, Dortmund et Milan brillent...","Les huit premiers matchs de la 5e journée de Ligue des Champions ont été joués mardi soir. L'Ajax a ...","neymar-vettman-"]];
+var txt1='';
+var txt2='';
+var titres1=new Array();
+var chapo1=[];
+var images1=[];
+for (var i=0, l1=c1.length; i<l1; i++ ) {
+	var txt0='<li id="art'+c1[i][0]+'" class="news goart"><h1>'+c1[i][1]+'</h1><div class="picture">';
+	txt0+='<img width=135 height=90 src="http://photo.maxifoot.fr/'+c1[i][3]+'1.jpg"></div><div class="chapeau">'+c1[i][2]+'</div></li>';
+	titres1[c1[i][0]]=c1[i][1];
+	chapo1[c1[i][0]]=c1[i][2];
+	images1[c1[i][0]]=c1[i][3];
+	if (i<0) { txt1+=txt0; } else { txt2+=txt0; }
+}
+$('#pg1').html('<ul>'+txt2+'</ul>');
+</script>
 </body>
-
 </html>
